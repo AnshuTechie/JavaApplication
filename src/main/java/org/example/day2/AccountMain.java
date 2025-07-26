@@ -8,9 +8,18 @@ public class AccountMain {
         account1.accountName = "Anshu";
 
         account1.accountDetails();
+        Account account2 = new Account();
+
+        account2.accountNumber = 1231;
+        account2.accountName = "Neeraj";
+        account2.accountBalance = 100000;
+        System.out.println("I----------------------------" );
+
+        account2.calculateInterest();
+
 
         System.out.println("I----------------------------" );
-        
+
         account1.calculateInterest();
     }
 }
